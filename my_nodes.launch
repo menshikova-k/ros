@@ -1,0 +1,6 @@
+<launch>
+  <node name="logger_node" pkg="test" type="logger.py" out="screen"
+  </node>
+  <node name="listener_node" pkg="test" type="listener.py" out="screen">
+  </node>
+  </launch>
